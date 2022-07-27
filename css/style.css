@@ -106,6 +106,7 @@ button {
 
 .info {
     max-width: 300px;
+    text-align: center;
 }
 
 .background-3 {
@@ -141,7 +142,7 @@ button {
     font-weight: bolder;
     font-style: normal;
     color: black;
-    margin-left: 770px;
+    margin-left: 610px;
 }
 
 .background-4 {
@@ -194,6 +195,10 @@ footer {
     justify-content: space-between;
     padding: 38px;
     background-color: #1F2937;
+}
+
+.disclaimer {
+    font-size: 12px; 
 }
 
 ul {
