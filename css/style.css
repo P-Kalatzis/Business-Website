@@ -1,9 +1,12 @@
 /* Stylesheet */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     height: 100vh;
     margin: 0;
-    overflow: hidden;
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
@@ -21,6 +24,11 @@ body {
     margin-left: 300px;
     margin-right: 300px;
     margin-bottom: 50px;   
+}
+
+.logo {
+    max-width: 40px;
+    max-height: 40px;
 }
 
 .part-one {
@@ -51,7 +59,7 @@ p {
     font-weight:lighter;
 }
 
-img {
+.dev1 {
     max-width: 100%;
     max-height: 100%;
 }
@@ -64,6 +72,40 @@ button {
     color:#fff;
     border:0;
     cursor:pointer;
+}
+
+.background-2 {
+    background-color: white;
+}
+
+.part-two {
+    margin-bottom: 160px;   
+}
+
+.title-info {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1F2937;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.webdevimg {
+    max-width: 280px;
+    max-height: 280px;
+}
+
+.info {
+    max-width: 300px;
 }
 
 footer {
