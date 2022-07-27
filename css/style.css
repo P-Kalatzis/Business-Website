@@ -120,7 +120,7 @@ button {
     margin-left: 318px;
     margin-right: 318px;
     margin-top: 60px;
-    margin-bottom: 180px;   
+    margin-bottom: 80px;   
 }
 
 .part-three > * {
@@ -142,6 +142,45 @@ button {
     font-style: normal;
     color: black;
     margin-left: 770px;
+}
+
+.background-4 {
+    background-color: white;
+}
+
+.part-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #3882F6;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+    margin-left: 318px;
+    margin-right: 318px;
+    margin-top: 80px;
+    margin-bottom: 180px;   
+}
+
+.part-four > * {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.call {
+    text-align: center;
+    font-size: 18px;
+}
+
+.sign-button {
+    background-color: #3882F6;
+    padding: 10px;
+    padding:0.6em 2em;
+    border-radius: 8px;
+    color:#fff;
+    border: 2px solid white;
+    cursor:pointer;
 }
 
 footer {
