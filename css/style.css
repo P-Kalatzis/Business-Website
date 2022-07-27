@@ -142,7 +142,7 @@ button {
     font-weight: bolder;
     font-style: normal;
     color: black;
-    margin-left: 610px;
+    margin-left: 410px;
 }
 
 .background-4 {
@@ -155,8 +155,10 @@ button {
     align-items: center;
     border-radius: 15px;
     background-color: #3882F6;
+    gap: 180px;
     padding-top: 30px;
     padding-left: 100px;
+    padding-right: 100px;
     padding-bottom: 30px;
     margin-left: 318px;
     margin-right: 318px;
@@ -174,6 +176,10 @@ button {
     font-size: 18px;
 }
 
+.call-info {
+    max-width: 400px;
+}
+
 .sign-button {
     background-color: #3882F6;
     padding: 10px;
@@ -188,17 +194,18 @@ footer {
     position: fixed;
     bottom: 0;
     left: 0;
-    width: 96%;
+    width: 97%;
     display: flex;
     flex-grow: 1;
     flex-shrink: 1;
     justify-content: space-between;
-    padding: 38px;
+    padding: 25px;
     background-color: #1F2937;
 }
 
 .disclaimer {
     font-size: 12px; 
+    margin-top: 0;
 }
 
 ul {
